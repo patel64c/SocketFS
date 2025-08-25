@@ -13,7 +13,6 @@ gcc -o S4 S4.c
 gcc -o s25client s25client.c
 
 ## Run (separate terminals/machines)
-```bash
 ./S2    # on server 2
 ./S3    # on server 3
 ./S4    # on server 4
@@ -21,7 +20,6 @@ gcc -o s25client s25client.c
 ./s25client
 
 ## Commands
-```bash
 uploadf <file1> [file2] [file3] <dest_path>
 downlf <path_in_S1> [path_in_S1]
 removef <path_in_S1> [path_in_S1]
